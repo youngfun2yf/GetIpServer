@@ -25,7 +25,7 @@ namespace GetIpServer
 			_dicName = new Dictionary<string, string>();
 			_socketWatch = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
-			var ip = IPAddress.Parse("127.0.0.1");
+			var ip = IPAddress.Parse("0.0.0.0");
 			var point = new IPEndPoint(ip, port);
 
 			_socketWatch.Bind(point);

@@ -3,6 +3,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 
 namespace GetIpServer
 {
@@ -39,7 +40,7 @@ namespace GetIpServer
         private void StartListen(object? obj)
         {
 			var sw = obj as Socket;
-            while (true)
+			while (true)
             {
 				_socketSend = sw!.Accept();
 
@@ -67,8 +68,8 @@ namespace GetIpServer
                 }
 
 				var str = Encoding.UTF8.GetString(buffer, 0, count);
-				var strReveiveMsg = $"receive : {ss.RemoteEndPoint} msg : {str}";
-                Console.WriteLine(strReveiveMsg);
+				var strReceiveMsg = $"receive : {ss.RemoteEndPoint} msg : {str}";
+                Console.WriteLine(strReceiveMsg);
 
 				_dicName[str] = ss.RemoteEndPoint.ToString();
 				break;
@@ -78,14 +79,16 @@ namespace GetIpServer
 
             foreach (var kv in _dicName)
             {
-				sb.AppendLine($"{kv.Key} - {kv.Value}\n");
+	            var line = $"{kv.Key} - {kv.Value}";
+	            sb.AppendLine(line);
+	            Console.WriteLine(line);
             }
 
 			buffer = Encoding.UTF8.GetBytes(sb.ToString());
 
             foreach (var s in _dicIp.Values)
             {
-                if (s != null)
+                if (s != null && s.Connected)
                 {
                     try
 					{

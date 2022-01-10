@@ -1,0 +1,5 @@
+/Volumes/T7/Project/GetIpServer/GetIpServer/bin/Release/net6.0/publish/GetIpServer
+/Volumes/T7/Project/GetIpServer/GetIpServer/bin/Release/net6.0/publish/GetIpServer.dll
+/Volumes/T7/Project/GetIpServer/GetIpServer/bin/Release/net6.0/publish/GetIpServer.deps.json
+/Volumes/T7/Project/GetIpServer/GetIpServer/bin/Release/net6.0/publish/GetIpServer.runtimeconfig.json
+/Volumes/T7/Project/GetIpServer/GetIpServer/bin/Release/net6.0/publish/GetIpServer.pdb

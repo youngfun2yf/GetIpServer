@@ -1,0 +1,15 @@
+/Volumes/T7/Project/GetIpServer/GetIpServer/bin/Debug/net6.0/GetIpServer
+/Volumes/T7/Project/GetIpServer/GetIpServer/bin/Debug/net6.0/GetIpServer.deps.json
+/Volumes/T7/Project/GetIpServer/GetIpServer/bin/Debug/net6.0/GetIpServer.runtimeconfig.json
+/Volumes/T7/Project/GetIpServer/GetIpServer/bin/Debug/net6.0/GetIpServer.dll
+/Volumes/T7/Project/GetIpServer/GetIpServer/bin/Debug/net6.0/ref/GetIpServer.dll
+/Volumes/T7/Project/GetIpServer/GetIpServer/bin/Debug/net6.0/GetIpServer.pdb
+/Volumes/T7/Project/GetIpServer/GetIpServer/obj/Debug/net6.0/GetIpServer.csproj.AssemblyReference.cache
+/Volumes/T7/Project/GetIpServer/GetIpServer/obj/Debug/net6.0/GetIpServer.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/T7/Project/GetIpServer/GetIpServer/obj/Debug/net6.0/GetIpServer.AssemblyInfoInputs.cache
+/Volumes/T7/Project/GetIpServer/GetIpServer/obj/Debug/net6.0/GetIpServer.AssemblyInfo.cs
+/Volumes/T7/Project/GetIpServer/GetIpServer/obj/Debug/net6.0/GetIpServer.csproj.CoreCompileInputs.cache
+/Volumes/T7/Project/GetIpServer/GetIpServer/obj/Debug/net6.0/GetIpServer.dll
+/Volumes/T7/Project/GetIpServer/GetIpServer/obj/Debug/net6.0/ref/GetIpServer.dll
+/Volumes/T7/Project/GetIpServer/GetIpServer/obj/Debug/net6.0/GetIpServer.pdb
+/Volumes/T7/Project/GetIpServer/GetIpServer/obj/Debug/net6.0/GetIpServer.genruntimeconfig.cache
